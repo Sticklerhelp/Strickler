@@ -58,4 +58,5 @@ input,textarea{width:100%;font:inherit;padding:.7rem;border:2px solid var(--fore
 .hero-img{display:block;width:100%;max-width:34rem;height:auto;margin:0 auto}
 .apps{display:flex;gap:1rem;justify-content:center;align-items:flex-start}
 .apps img{width:48%;max-width:15rem;height:auto}
-video{max-height:34rem;width:auto;max-width:100%;display:block;margin:0 auto}
+
+video{display:block;width:100%;max-width:22rem;aspect-ratio:9/16;object-fit:cover;margin:0 auto;max-height:none}
