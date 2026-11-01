@@ -60,3 +60,9 @@ input,textarea{width:100%;font:inherit;padding:.7rem;border:2px solid var(--fore
 .apps img{width:48%;max-width:15rem;height:auto}
 
 video{display:block;width:100%;max-width:22rem;aspect-ratio:9/16;object-fit:cover;margin:0 auto;max-height:none}
+.team{display:grid;grid-template-columns:repeat(auto-fit,minmax(16rem,1fr));gap:2.5rem;margin-top:2rem}
+.person{text-align:center}
+.avatar{display:block;width:12rem;height:12rem;border-radius:50%;object-fit:cover;object-position:center top;border:6px solid var(--lime);background:var(--mist);margin:0 auto 1rem}
+.person h3{margin:0;font-size:1.5rem}
+.role{color:var(--leaf);font-weight:700;margin:.15rem 0 .75rem}
+.person p{text-align:left}
