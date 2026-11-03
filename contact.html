@@ -10,10 +10,24 @@
 <div class="hero"><div class="wrap"><h1>Contact us</h1><p>Call, email, or send a message. We reply quickly. You may also find your answer in our <a href="faq.html">FAQs</a>.</p></div></div>
 <section><div class="wrap split" style="align-items:start"><div><h2>Reach us</h2>
 <p><strong>Phone:</strong> <a href="tel:+13853266630">385-326-6630</a><br><strong>Email:</strong> <a href="mailto:Stricklerhelp@gmail.com">Stricklerhelp@gmail.com</a></p></div>
-<form action="https://formspree.io/f/YOUR_FORM_ID" method="POST"><h2>Send a message</h2>
-<label for="n">Name</label><input id="n" name="name" required>
-<label for="e">Email or phone</label><input id="e" name="contact" required>
-<label for="m">How can we help?</label><textarea id="m" name="message" rows="5"></textarea><p><button class="btn" type="submit" style="border:0;font:inherit;font-weight:700;cursor:pointer">Send message</button></p></form></div></section>
+<form id="cf" action="https://formsubmit.co/Stricklerhelp@gmail.com" method="POST"><h2>Send a message</h2>
+<input type="hidden" name="_subject" value="LEAD⭐ - Strickler Website">
+<input type="hidden" name="_cc" value="Stricklerpers@Gmail.com">
+<input type="hidden" name="_next" value="https://sticklerhelp.github.io/Strickler/thanks.html">
+<input type="hidden" name="_template" value="table">
+<input type="hidden" name="_captcha" value="false">
+<input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+<label for="cf-name">Your name</label><input id="cf-name" name="name" autocomplete="name" required>
+<label for="cf-email">Email</label><input id="cf-email" name="email" type="email" autocomplete="email">
+<label for="cf-phone">Phone</label><input id="cf-phone" name="phone" type="tel" autocomplete="tel">
+<p style="margin:.4rem 0 0;font-size:.9rem">Please give us an email or a phone number so we can reach you.</p>
+<label for="cf-msg">Your message</label><textarea id="cf-msg" name="message" rows="5" required></textarea>
+<p><button class="btn" type="submit" style="border:0;font:inherit;font-weight:700;cursor:pointer">Send message</button></p></form>
+<script>
+(function(){var f=document.getElementById('cf'),p=document.getElementById('cf-phone'),m=document.getElementById('cf-email');
+f.addEventListener('submit',function(e){if(!m.value.trim()&&!p.value.trim()){e.preventDefault();p.setCustomValidity('Please enter an email or a phone number so we can reach you.');p.reportValidity()}});
+p.addEventListener('input',function(){p.setCustomValidity('')});m.addEventListener('input',function(){p.setCustomValidity('')})})();
+</script></div></section>
 </main>
 <footer><div class="wrap"><p><strong>Strickler LLC</strong> &middot; Northern Utah<br><a href="tel:+13853266630">385-326-6630</a> &middot; <a href="mailto:Stricklerhelp@gmail.com">Stricklerhelp@gmail.com</a></p>
 <p><a href="faq.html">FAQs</a> &middot; <a href="products.html">Products</a> &middot; <a href="about.html">About us</a> &middot; <a href="contact.html">Contact us</a></p>
